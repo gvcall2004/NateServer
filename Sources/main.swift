@@ -47,8 +47,8 @@ let confData = [
 		//		directory (which must be located in the current working directory).
 		//	* Performs content compression on outgoing data when appropriate.
 		[
-			"name":"localhost",
-			"port":8181,
+			"name":"nateserver",
+			"port":2013,
 			"routes":[
 				["method":"get", "uri":"/", "handler":handler],
 				["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
