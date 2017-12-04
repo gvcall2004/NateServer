@@ -1,7 +1,7 @@
 //
 //  main.swift
 //  PerfectTemplate
-//
+//  NateServer
 //  Created by Kyle Jessup on 2015-11-05.
 //	Copyright (C) 2015 PerfectlySoft, Inc.
 //
