@@ -28,7 +28,7 @@ func handler(data: [String:Any]) throws -> RequestHandler {
 		request, response in
 		// Respond with a simple message.
 		response.setHeader(.contentType, value: "text/html")
-		response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
+		response.appendBody(string: "<html><title>Nate's Server</title><body><h2>Welcome, User, to Nate's Server</h2><br><p>(This is a demo of Perfect)</p></body></html>")
 		// Ensure that response.completed() is called when your processing is done.
 		response.completed()
 	}
